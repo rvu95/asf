@@ -68,6 +68,7 @@
 			<device-support value="sam3a"/>
 			<device-support value="sam4s"/>
 			<device-support value="sam4l"/>
+			<device-support value="sam4e"/>
 			<info type="gui-flag" value="move-to-root"/>
 		</module>
 	</select-by-device>
