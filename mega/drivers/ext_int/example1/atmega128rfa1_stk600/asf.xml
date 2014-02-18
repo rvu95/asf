@@ -3,6 +3,7 @@
 		<build type="header-file" value="conf_interrupt.h"/>
 		<build type="header-file" value="conf_board.h"/>
 		<build type="header-file" value="conf_clock.h"/>
+		<build type="header-file" value="conf_example.h"/>		
 		<build type="include-path" value="."/>
 		<require idref="mega.drivers.ext_int.example1"/>
 		<require idref="board.stk600-mega.atmega128rfa1"/>

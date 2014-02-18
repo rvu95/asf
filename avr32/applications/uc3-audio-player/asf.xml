@@ -103,6 +103,7 @@
 			<require idref="avr32.applications.uc3-audio-player.fs"/>
 			<build type="c-source" value="user_interface/gui/sdram_loader.c"/>
 			<build type="header-file" value="user_interface/gui/sdram_loader.h"/>
+			<build type="include-path" value="./user_interface/gui/."/>
 			<build type="header-file" value="conf/conf_dlmalloc.h"/>
 			<require idref="avr32.services.storage.dlmalloc"/>
 			<device-support value="uc3a"/>
@@ -225,6 +226,7 @@
 		<build type="header-file" value="usb_host_task.h"/>
 		<build type="c-source" value="usb_host_enum.c"/>
 		<build type="header-file" value="usb_host_enum.h"/>
+		<build type="include-path" value="."/>
 		<require idref="avr32.applications.uc3-audio-player.usb_common"/>
 		<device-support value="uc3"/>
 	</module>

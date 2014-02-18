@@ -43,6 +43,7 @@
 			</info>
 			<device-support value="sam3x"/>
 			<device-support value="sam3a"/>
+			<device-support value="sam4l"/>
 			<info type="gui-flag" value="move-to-root"/>
 		</module>
 	</select-by-device>
